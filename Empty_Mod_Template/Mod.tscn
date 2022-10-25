@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://MOSD/Mod.gd" type="Script" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://MOSD/Mod.tres" type="Resource" id=3]
+
+[node name="Mod" type="Node2D"]
+position = Vector2( 538, 303 )
+script = ExtResource( 1 )
+mod_file = ExtResource( 3 )
+Resource_Name = "Mod"
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
